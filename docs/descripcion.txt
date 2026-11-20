@@ -1,0 +1,11 @@
+SISTEMA DE GESTIÓN ACADÉMICA
+
+Descripción:
+Este proyecto corresponde a un sistema de gestión de información académica.
+
+Objetivo:
+Desarrollar una aplicación que permita gestionar información relacionada
+con estudiantes y cursos de una institución educativa.
+
+El proyecto utiliza Git y GitHub para controlar las versiones del código,
+registrar los cambios realizados y facilitar el trabajo colaborativo.
