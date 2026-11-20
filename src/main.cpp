@@ -9,6 +9,27 @@ struct Estudiante {
     string nombre;
 };
 
+void buscarEstudiante(const vector<Estudiante>& estudiantes, int codigo) {
+
+    bool encontrado = false;
+
+    for (const auto& estudiante : estudiantes) {
+
+        if (estudiante.codigo == codigo) {
+
+            cout << "Estudiante encontrado: "
+                 << estudiante.nombre << endl;
+
+            encontrado = true;
+            break;
+        }
+    }
+
+    if (!encontrado) {
+        cout << "Estudiante no encontrado." << endl;
+    }
+}
+
 int main() {
 
     vector<Estudiante> estudiantes = {
@@ -24,6 +45,15 @@ int main() {
         cout << estudiante.codigo << " - "
              << estudiante.nombre << endl;
     }
+
+
+    int codigo;
+
+cout << endl;
+cout << "Ingrese el codigo del estudiante a buscar: ";
+cin >> codigo;
+
+buscarEstudiante(estudiantes, codigo);
 
     return 0;
 }
