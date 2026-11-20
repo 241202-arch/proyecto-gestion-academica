@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Gestión Académica
 
 ## Descripción
